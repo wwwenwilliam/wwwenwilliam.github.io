@@ -28,7 +28,7 @@ footer {
 .container {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: flex-start;
 }
 
 img {
@@ -36,10 +36,12 @@ img {
 }
 
 .image {
-  flex-basis: 40%
+  flex: 1;
 }
 
 .text {
+  flex: 3;
   font-size: 16px;
   padding-left: 16px;
+  text-align: left;
 }
