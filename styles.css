@@ -1,0 +1,26 @@
+body {
+  margin: auto;
+  background: #f8f8f8;
+  color: #242424;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 60%;
+  min-width: 650px;
+}
+
+a {
+  border-bottom: 1px solid #242424;
+  color: #242424;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d46d00;
+  font-weight: bold;
+  border-bottom: 0;
+}
+
+footer {
+  text-align: center;
+}
