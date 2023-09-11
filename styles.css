@@ -16,11 +16,30 @@ a {
 }
 
 a:hover {
-  color: #d46d00;
+  color: #F80;
   font-weight: bold;
   border-bottom: 0;
 }
 
 footer {
   text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 40%
+}
+
+.text {
+  font-size: 16px;
+  padding-left: 16px;
 }
